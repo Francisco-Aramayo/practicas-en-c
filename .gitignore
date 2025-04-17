@@ -1,15 +1,12 @@
-# Binarios
-*.o
-*.out
-*.exe
+# Ignora todo
+*
 
-# Archivos de respaldo
-*~
+# ¡Excepto archivos .c!
+!*.c
 
-# Archivos temporales
-*.log
-*.tmp
+# Y también el .gitignore mismo (para que quede en el repo)
+!.gitignore
 
-# Archivos de depuración
-core
+# (Opcional) mantener el README
+!README.md
 
